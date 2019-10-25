@@ -1,0 +1,34 @@
+AV A
+AV B
+AV C
+AV D
+AV E
+AV F
+AV G
+AV H
+AE A B 1
+AE B C 2
+AE D B 3
+AE C E 5
+AE E F 6
+AE C G 7
+AE G E 7
+AE G H 4
+U G H 5
+U A B 10
+U D B 9
+ON -1 B
+IN -1 F
+ON -1 C
+ON 1 C
+W A B
+W D A
+RV J
+RV A
+U B C 0
+U E F 0
+U F E 0
+AV J
+PV
+PE
+Q

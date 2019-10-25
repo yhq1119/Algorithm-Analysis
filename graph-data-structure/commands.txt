@@ -1,0 +1,23 @@
+java -cp .:jopt-simple-5.0.2.jar:sample.jar GraphEval adjlist
+
+java -cp .:jopt-simple-5.0.2.jar:sample.jar GraphEval incmat
+
+java -cp .:jopt-simple-5.0.2.jar GraphEval adjlist vert.out edge.out neigh.out misc.out
+
+java -cp .:jopt-simple-5.0.2.jar GraphEval incmat vert.out edge.out neigh.out misc.out
+
+java -cp .:jopt-simple-5.0.2.jar GraphEval adjlist vert.out edge.out neigh.out misc.out < test1.in
+
+java -cp .:jopt-simple-5.0.2.jar GraphEval incmat vert.out edge.out neigh.out misc.out < test1.in
+
+java -cp .:jopt-simple-5.0.2.jar:sample.jar GraphEval -f assocGraph.csv adjlist
+
+java -cp .:jopt-simple-5.0.2.jar:sample.jar GraphEval -f assocGraph.csv incmat
+
+python assign1TestScript.py -v . adjlist tests/test1.in
+
+python assign1TestScript.py -v . incmat tests/test1.in
+
+python assign1TestScript.py -v -f ./assocGraph.csv . adjlist tests/test2.in
+
+python assign1TestScript.py -v -f ./assocGraph.csv . incmat tests/test2.in

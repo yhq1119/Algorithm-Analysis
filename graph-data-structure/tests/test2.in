@@ -1,0 +1,24 @@
+AV A
+AV B
+AV C
+AV D
+AV E
+AV F
+AE A B 1
+AE C B 1
+AE B D 1
+AE A E 3
+AE D C 5
+AE F A 2
+ON -1 A
+IN -1 F
+W C B
+W B C
+W A E
+U C B 4
+U A B 0
+RV D
+AV G
+PV
+PE
+Q

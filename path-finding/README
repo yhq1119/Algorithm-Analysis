@@ -1,0 +1,5 @@
+To compile on server:
+javac -cp .:jopt-simple-5.0.2.jar Assign2_s3681278_s3672349.PathFinderTester.java Assign2_s3681278_s3672349.map/*.java Assign2_s3681278_s3672349.pathFinder/*.java
+
+To run on server, using example1 and all the optional files, apart from output file, specified:
+java -cp .:jopt-simple-5.0.2.jar Assign2_s3681278_s3672349.PathFinderTester -v -t terrain1.para -w waypoints1.para example1.para
